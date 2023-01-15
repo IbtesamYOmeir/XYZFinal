@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [XYZ-Final by groups]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="GRP-anas,mohammad,ahmad,ali(failed)">
+    <groups>
+      <run>
+        <include name="anas"/>
+        <include name="mohammad"/>
+        <include name="ahmad"/>
+        <include name="ali"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Customers.Login">
+        <methods>
+          <include name="LoginAsCustomer"/>
+        </methods>
+      </class> <!-- Customers.Login -->
+    </classes>
+  </test> <!-- GRP-anas,mohammad,ahmad,ali(failed) -->
+</suite> <!-- Failed suite [XYZ-Final by groups] -->
